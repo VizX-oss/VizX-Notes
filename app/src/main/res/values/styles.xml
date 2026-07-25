@@ -25,8 +25,9 @@
         <item name="cornerSize">@dimen/m3_spacing_small</item>
     </style>
 
-    <!-- Base Parent Style for AAPT2 resolution -->
-    <style name="Widget.Notes" />
+    <!-- Base Parent Styles for AAPT2 resolution -->
+    <style name="Widget" />
+    <style name="Widget.Notes" parent="Widget" />
 
     <!-- Component Styles -->
     <style name="Widget.Notes.Card" parent="Widget.Material3.CardView.Elevated">
