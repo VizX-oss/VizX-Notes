@@ -25,6 +25,9 @@
         <item name="cornerSize">@dimen/m3_spacing_small</item>
     </style>
 
+    <!-- Base Parent Style for AAPT2 resolution -->
+    <style name="Widget.Notes" />
+
     <!-- Component Styles -->
     <style name="Widget.Notes.Card" parent="Widget.Material3.CardView.Elevated">
         <item name="cardCornerRadius">@dimen/m3_card_corner_radius</item>
