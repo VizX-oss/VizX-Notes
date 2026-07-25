@@ -7,4 +7,16 @@
     <dimen name="min_open_note_popup_height">200dp</dimen>
     <dimen name="open_note_popup_bottom_extra_padding">76dp</dimen>
     <dimen name="open_note_popup_lock_size">56dp</dimen>
+
+    <!-- Material Design 3 Dimensions -->
+    <dimen name="m3_card_corner_radius">16dp</dimen>
+    <dimen name="m3_card_elevation">2dp</dimen>
+    <dimen name="m3_dialog_corner_radius">28dp</dimen>
+    <dimen name="m3_fab_corner_radius">16dp</dimen>
+    <dimen name="m3_chip_corner_radius">16dp</dimen>
+    <dimen name="m3_input_corner_radius">12dp</dimen>
+    <dimen name="m3_pill_corner_radius">50dp</dimen>
+    <dimen name="m3_spacing_small">8dp</dimen>
+    <dimen name="m3_spacing_medium">16dp</dimen>
+    <dimen name="m3_spacing_large">24dp</dimen>
 </resources>

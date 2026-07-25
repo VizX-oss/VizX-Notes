@@ -9,9 +9,9 @@
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginStart="@dimen/small_margin"
-        android:layout_marginTop="@dimen/medium_margin"
-        android:layout_marginEnd="@dimen/small_margin"
+        android:layout_marginStart="@dimen/m3_spacing_small"
+        android:layout_marginTop="@dimen/m3_spacing_medium"
+        android:layout_marginEnd="@dimen/m3_spacing_small"
         android:minHeight="@dimen/min_open_note_popup_height"
         app:layout_constraintHeight_max="@dimen/max_open_note_popup_height">
 
@@ -19,6 +19,7 @@
             android:id="@+id/dialog_open_note_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:clipToPadding="false"
             android:paddingBottom="@dimen/open_note_popup_bottom_extra_padding"
             tools:itemCount="10"
             tools:listitem="@layout/open_note_item" />
@@ -27,10 +28,13 @@
 
     <org.fossify.commons.views.MyFloatingActionButton
         android:id="@+id/new_note_fab"
-        android:layout_width="@dimen/fab_size"
-        android:layout_height="@dimen/fab_size"
+        style="@style/Widget.Notes.FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/activity_margin"
-        android:src="@drawable/ic_plus_vector" />
+        android:layout_margin="@dimen/m3_spacing_medium"
+        android:contentDescription="@string/new_note_type"
+        android:src="@drawable/ic_plus_vector"
+        app:fabSize="normal" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

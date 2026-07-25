@@ -1,5 +1,47 @@
 <resources>
 
-    <style name="AppTheme" parent="AppTheme.Base"/>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="cornerFamily">rounded</item>
+        <item name="shapeAppearanceCornerExtraLarge">@style/ShapeAppearance.M3.Corner.ExtraLarge</item>
+        <item name="shapeAppearanceCornerLarge">@style/ShapeAppearance.M3.Corner.Large</item>
+        <item name="shapeAppearanceCornerMedium">@style/ShapeAppearance.M3.Corner.Medium</item>
+        <item name="shapeAppearanceCornerSmall">@style/ShapeAppearance.M3.Corner.Small</item>
+    </style>
+
+    <!-- Shape Appearances for MD3 -->
+    <style name="ShapeAppearance.M3.Corner.ExtraLarge" parent="ShapeAppearance.Material3.Corner.ExtraLarge">
+        <item name="cornerSize">@dimen/m3_dialog_corner_radius</item>
+    </style>
+
+    <style name="ShapeAppearance.M3.Corner.Large" parent="ShapeAppearance.Material3.Corner.Large">
+        <item name="cornerSize">@dimen/m3_card_corner_radius</item>
+    </style>
+
+    <style name="ShapeAppearance.M3.Corner.Medium" parent="ShapeAppearance.Material3.Corner.Medium">
+        <item name="cornerSize">@dimen/m3_input_corner_radius</item>
+    </style>
+
+    <style name="ShapeAppearance.M3.Corner.Small" parent="ShapeAppearance.Material3.Corner.Small">
+        <item name="cornerSize">@dimen/m3_spacing_small</item>
+    </style>
+
+    <!-- Component Styles -->
+    <style name="Widget.Notes.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">@dimen/m3_card_corner_radius</item>
+        <item name="cardElevation">@dimen/m3_card_elevation</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.M3.Corner.Large</item>
+    </style>
+
+    <style name="Widget.Notes.FloatingActionButton" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.M3.Corner.Large</item>
+    </style>
+
+    <style name="Widget.Notes.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">@dimen/m3_input_corner_radius</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/m3_input_corner_radius</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/m3_input_corner_radius</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/m3_input_corner_radius</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.M3.Corner.Medium</item>
+    </style>
 
 </resources>

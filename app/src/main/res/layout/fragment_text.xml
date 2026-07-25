@@ -9,7 +9,7 @@
         android:id="@+id/note_locked_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="@dimen/activity_margin"
+        android:layout_marginTop="@dimen/m3_spacing_medium"
         android:visibility="gone">
 
         <ImageView
@@ -17,7 +17,8 @@
             android:layout_width="@dimen/normal_icon_size"
             android:layout_height="@dimen/normal_icon_size"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/m3_spacing_large"
+            android:contentDescription="@string/note_content_locked"
             android:src="@drawable/ic_lock_vector" />
 
         <org.fossify.commons.views.MyTextView
@@ -26,10 +27,10 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/note_locked_image"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="@dimen/activity_margin"
-            android:paddingStart="@dimen/bigger_margin"
-            android:paddingTop="@dimen/medium_margin"
-            android:paddingEnd="@dimen/bigger_margin"
+            android:layout_marginTop="@dimen/m3_spacing_medium"
+            android:paddingStart="@dimen/m3_spacing_large"
+            android:paddingTop="@dimen/m3_spacing_small"
+            android:paddingEnd="@dimen/m3_spacing_large"
             android:text="@string/note_content_locked" />
 
         <TextView
@@ -38,9 +39,12 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/note_locked_label"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="@dimen/medium_margin"
-            android:background="@drawable/ripple_all_corners"
-            android:padding="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/m3_spacing_medium"
+            android:background="@drawable/m3_pill_background"
+            android:paddingStart="@dimen/m3_spacing_medium"
+            android:paddingTop="@dimen/m3_spacing_small"
+            android:paddingEnd="@dimen/m3_spacing_medium"
+            android:paddingBottom="@dimen/m3_spacing_small"
             android:text="@string/show_content" />
 
     </RelativeLayout>
@@ -64,8 +68,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:padding="@dimen/small_margin"
-        android:textStyle="italic"
-        tools:text="123" />
+        android:layout_margin="@dimen/m3_spacing_medium"
+        android:background="@drawable/m3_pill_background"
+        android:paddingStart="@dimen/m3_spacing_medium"
+        android:paddingTop="@dimen/m3_spacing_small"
+        android:paddingEnd="@dimen/m3_spacing_medium"
+        android:paddingBottom="@dimen/m3_spacing_small"
+        android:textSize="12sp"
+        tools:text="123 words" />
 
 </RelativeLayout>
