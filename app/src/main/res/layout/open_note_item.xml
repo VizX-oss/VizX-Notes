@@ -22,7 +22,7 @@
         android:layout_height="@dimen/open_note_popup_lock_size"
         android:layout_below="@+id/open_note_item_title"
         android:importantForAccessibility="no"
-        android:padding="@dimen/small_margin"
+        android:padding="@dimen/m3_spacing_small"
         android:src="@drawable/ic_lock_vector"
         android:visibility="gone" />
 
@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="@dimen/small_margin"
+        android:layout_marginEnd="@dimen/m3_spacing_small"
         android:layout_toStartOf="@id/open_note_item_icon"
         android:ellipsize="end"
         android:lines="1"
@@ -42,13 +42,13 @@
 
     <ImageView
         android:id="@+id/open_note_item_icon"
-        android:layout_width="@dimen/medium_icon_size"
-        android:layout_height="@dimen/medium_icon_size"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_alignTop="@id/open_note_item_title"
-        android:layout_alignBottom="@id/open_note_item_title"
         android:layout_alignParentEnd="true"
         android:contentDescription="@string/this_note_is_linked"
         android:foreground="@drawable/ripple_all_corners"
+        android:padding="12dp"
         android:src="@drawable/ic_link_vector" />
 
     <org.fossify.commons.views.MyTextView

@@ -11,10 +11,10 @@
         android:layout_height="match_parent"
         android:background="@null"
         android:gravity="start"
-        android:paddingStart="@dimen/activity_margin"
-        android:paddingTop="@dimen/medium_margin"
-        android:paddingEnd="@dimen/medium_margin"
-        android:paddingBottom="@dimen/medium_margin"
+        android:paddingStart="@dimen/m3_spacing_large"
+        android:paddingTop="@dimen/m3_spacing_medium"
+        android:paddingEnd="@dimen/m3_spacing_medium"
+        android:paddingBottom="@dimen/m3_spacing_medium"
         android:visibility="gone" />
 
     <TextView
@@ -23,10 +23,10 @@
         android:layout_height="match_parent"
         android:background="@null"
         android:gravity="center_horizontal"
-        android:paddingStart="@dimen/activity_margin"
-        android:paddingTop="@dimen/medium_margin"
-        android:paddingEnd="@dimen/medium_margin"
-        android:paddingBottom="@dimen/medium_margin"
+        android:paddingStart="@dimen/m3_spacing_large"
+        android:paddingTop="@dimen/m3_spacing_medium"
+        android:paddingEnd="@dimen/m3_spacing_medium"
+        android:paddingBottom="@dimen/m3_spacing_medium"
         android:visibility="gone" />
 
     <TextView
@@ -35,10 +35,10 @@
         android:layout_height="match_parent"
         android:background="@null"
         android:gravity="end"
-        android:paddingStart="@dimen/activity_margin"
-        android:paddingTop="@dimen/medium_margin"
-        android:paddingEnd="@dimen/medium_margin"
-        android:paddingBottom="@dimen/medium_margin"
+        android:paddingStart="@dimen/m3_spacing_large"
+        android:paddingTop="@dimen/m3_spacing_medium"
+        android:paddingEnd="@dimen/m3_spacing_medium"
+        android:paddingBottom="@dimen/m3_spacing_medium"
         android:visibility="gone" />
 
     <TextView
@@ -48,10 +48,10 @@
         android:background="@null"
         android:fontFamily="monospace"
         android:gravity="start"
-        android:paddingStart="@dimen/activity_margin"
-        android:paddingTop="@dimen/medium_margin"
-        android:paddingEnd="@dimen/medium_margin"
-        android:paddingBottom="@dimen/medium_margin"
+        android:paddingStart="@dimen/m3_spacing_large"
+        android:paddingTop="@dimen/m3_spacing_medium"
+        android:paddingEnd="@dimen/m3_spacing_medium"
+        android:paddingBottom="@dimen/m3_spacing_medium"
         android:visibility="gone" />
 
     <TextView
@@ -61,10 +61,10 @@
         android:background="@null"
         android:fontFamily="monospace"
         android:gravity="center_horizontal"
-        android:paddingStart="@dimen/activity_margin"
-        android:paddingTop="@dimen/medium_margin"
-        android:paddingEnd="@dimen/medium_margin"
-        android:paddingBottom="@dimen/medium_margin"
+        android:paddingStart="@dimen/m3_spacing_large"
+        android:paddingTop="@dimen/m3_spacing_medium"
+        android:paddingEnd="@dimen/m3_spacing_medium"
+        android:paddingBottom="@dimen/m3_spacing_medium"
         android:visibility="gone" />
 
     <TextView
@@ -74,10 +74,10 @@
         android:background="@null"
         android:fontFamily="monospace"
         android:gravity="end"
-        android:paddingStart="@dimen/activity_margin"
-        android:paddingTop="@dimen/medium_margin"
-        android:paddingEnd="@dimen/medium_margin"
-        android:paddingBottom="@dimen/medium_margin"
+        android:paddingStart="@dimen/m3_spacing_large"
+        android:paddingTop="@dimen/m3_spacing_medium"
+        android:paddingEnd="@dimen/m3_spacing_medium"
+        android:paddingBottom="@dimen/m3_spacing_medium"
         android:visibility="gone" />
 
 </RelativeLayout>

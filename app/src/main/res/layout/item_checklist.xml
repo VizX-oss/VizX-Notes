@@ -18,6 +18,8 @@
         android:id="@+id/checklist_checkbox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
         android:background="@null"
         android:clickable="false"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -8,13 +8,14 @@
     android:background="@drawable/ripple_background"
     android:clickable="true"
     android:focusable="true"
-    android:paddingHorizontal="@dimen/normal_margin">
+    android:minHeight="48dp"
+    android:paddingHorizontal="@dimen/m3_spacing_medium">
 
     <org.fossify.commons.views.MyTextView
         android:id="@+id/locked_note_title"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:paddingStart="@dimen/activity_margin"
+        android:paddingStart="@dimen/m3_spacing_medium"
         android:textSize="@dimen/bigger_text_size"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/locked_unlocked_image"
@@ -26,7 +27,7 @@
         android:id="@+id/locked_unlocked_image"
         android:layout_width="@dimen/fab_size"
         android:layout_height="@dimen/fab_size"
-        android:paddingVertical="@dimen/activity_margin"
+        android:paddingVertical="@dimen/m3_spacing_medium"
         android:src="@drawable/ic_lock_vector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -44,4 +44,22 @@
         <item name="shapeAppearanceOverlay">@style/ShapeAppearance.M3.Corner.Medium</item>
     </style>
 
+    <style name="Widget.Notes.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="cornerRadius">@dimen/m3_chip_corner_radius</item>
+    </style>
+
+    <style name="Widget.Notes.PillButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/m3_pill_background</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:paddingStart">@dimen/m3_spacing_medium</item>
+        <item name="android:paddingEnd">@dimen/m3_spacing_medium</item>
+        <item name="android:paddingTop">@dimen/m3_spacing_small</item>
+        <item name="android:paddingBottom">@dimen/m3_spacing_small</item>
+    </style>
+
 </resources>

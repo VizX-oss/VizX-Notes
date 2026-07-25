@@ -3,7 +3,7 @@
     android:id="@+id/date_time_pattern_info"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingHorizontal="@dimen/big_margin"
-    android:paddingTop="@dimen/big_margin"
+    android:paddingHorizontal="@dimen/m3_spacing_large"
+    android:paddingTop="@dimen/m3_spacing_large"
     android:text="@string/date_time_pattern_info"
     android:textIsSelectable="true" />

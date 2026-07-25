@@ -10,15 +10,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingTop="@dimen/activity_margin">
+        android:paddingTop="@dimen/m3_spacing_large">
 
         <org.fossify.commons.views.MyTextInputLayout
             android:id="@+id/backup_notes_folder_hint"
+            style="@style/Widget.Notes.TextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/activity_margin"
-            android:layout_marginEnd="@dimen/activity_margin"
-            android:layout_marginBottom="@dimen/activity_margin"
+            android:layout_marginStart="@dimen/m3_spacing_large"
+            android:layout_marginEnd="@dimen/m3_spacing_large"
+            android:layout_marginBottom="@dimen/m3_spacing_medium"
             android:hint="@string/folder">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -31,10 +32,11 @@
 
         <org.fossify.commons.views.MyTextInputLayout
             android:id="@+id/backup_notes_filename_hint"
+            style="@style/Widget.Notes.TextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/activity_margin"
-            android:layout_marginEnd="@dimen/activity_margin"
+            android:layout_marginStart="@dimen/m3_spacing_large"
+            android:layout_marginEnd="@dimen/m3_spacing_large"
             android:hint="@string/filename_without_json"
             app:endIconDrawable="@drawable/ic_info_vector"
             app:endIconMode="custom">

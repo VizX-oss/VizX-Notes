@@ -40,16 +40,14 @@
 
             <TextView
                 android:id="@+id/note_locked_show"
+                style="@style/Widget.Notes.PillButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/note_locked_label"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/m3_spacing_medium"
-                android:background="@drawable/m3_pill_background"
-                android:paddingStart="@dimen/m3_spacing_medium"
-                android:paddingTop="@dimen/m3_spacing_small"
-                android:paddingEnd="@dimen/m3_spacing_medium"
-                android:paddingBottom="@dimen/m3_spacing_small"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
                 android:text="@string/show_content" />
 
         </RelativeLayout>
@@ -80,23 +78,23 @@
                 android:paddingStart="@dimen/m3_spacing_medium"
                 android:paddingEnd="@dimen/m3_spacing_medium"
                 android:text="@string/checklist_is_empty"
+                android:textColor="?attr/colorOnSurfaceVariant"
                 android:textSize="@dimen/bigger_text_size"
                 android:textStyle="italic"
                 android:visibility="gone" />
 
             <org.fossify.commons.views.MyTextView
                 android:id="@+id/fragment_placeholder_2"
+                style="@style/Widget.Notes.PillButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/fragment_placeholder"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/m3_spacing_medium"
-                android:background="@drawable/m3_pill_background"
-                android:gravity="center"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
                 android:paddingStart="@dimen/m3_spacing_large"
-                android:paddingTop="@dimen/m3_spacing_small"
                 android:paddingEnd="@dimen/m3_spacing_large"
-                android:paddingBottom="@dimen/m3_spacing_small"
                 android:text="@string/add_new_checklist_items"
                 android:textSize="@dimen/bigger_text_size"
                 android:visibility="gone" />

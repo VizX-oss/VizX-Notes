@@ -4,8 +4,8 @@
     <corners android:radius="@dimen/m3_pill_corner_radius" />
     <solid android:color="?attr/colorControlHighlight" />
     <padding
-        android:bottom="4dp"
-        android:left="12dp"
-        android:right="12dp"
-        android:top="4dp" />
+        android:bottom="@dimen/m3_spacing_small"
+        android:left="@dimen/m3_spacing_medium"
+        android:right="@dimen/m3_spacing_medium"
+        android:top="@dimen/m3_spacing_small" />
 </shape>

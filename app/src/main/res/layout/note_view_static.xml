@@ -8,6 +8,6 @@
     android:gravity="top"
     android:hint="@string/insert_text_here"
     android:inputType="textCapSentences|textMultiLine"
-    android:padding="@dimen/activity_margin"
+    android:padding="@dimen/m3_spacing_medium"
     android:scrollbars="vertical"
     android:textCursorDrawable="@null" />

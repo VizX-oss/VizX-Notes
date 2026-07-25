@@ -4,39 +4,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingStart="@dimen/activity_margin"
-    android:paddingTop="@dimen/small_margin"
-    android:paddingEnd="@dimen/activity_margin">
+    android:paddingStart="@dimen/m3_spacing_large"
+    android:paddingTop="@dimen/m3_spacing_small"
+    android:paddingEnd="@dimen/m3_spacing_large">
 
     <RadioGroup
         android:id="@+id/sorting_dialog_radio_sorting"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/medium_margin">
+        android:layout_marginBottom="@dimen/m3_spacing_medium">
 
         <org.fossify.commons.views.MyCompatRadioButton
             android:id="@+id/sorting_dialog_radio_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:paddingTop="@dimen/normal_margin"
-            android:paddingBottom="@dimen/normal_margin"
+            android:minHeight="48dp"
+            android:paddingTop="@dimen/m3_spacing_small"
+            android:paddingBottom="@dimen/m3_spacing_small"
             android:text="@string/title" />
 
         <org.fossify.commons.views.MyCompatRadioButton
             android:id="@+id/sorting_dialog_radio_date_created"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="@dimen/normal_margin"
-            android:paddingBottom="@dimen/normal_margin"
+            android:minHeight="48dp"
+            android:paddingTop="@dimen/m3_spacing_small"
+            android:paddingBottom="@dimen/m3_spacing_small"
             android:text="@string/date_created" />
 
         <org.fossify.commons.views.MyCompatRadioButton
             android:id="@+id/sorting_dialog_radio_custom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="@dimen/normal_margin"
-            android:paddingBottom="@dimen/normal_margin"
+            android:minHeight="48dp"
+            android:paddingTop="@dimen/m3_spacing_small"
+            android:paddingBottom="@dimen/m3_spacing_small"
             android:text="@string/custom" />
 
     </RadioGroup>
@@ -49,24 +52,26 @@
         android:id="@+id/sorting_dialog_radio_order"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/medium_margin"
-        android:layout_marginBottom="@dimen/medium_margin">
+        android:layout_marginTop="@dimen/m3_spacing_medium"
+        android:layout_marginBottom="@dimen/m3_spacing_medium">
 
         <org.fossify.commons.views.MyCompatRadioButton
             android:id="@+id/sorting_dialog_radio_ascending"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:paddingTop="@dimen/normal_margin"
-            android:paddingBottom="@dimen/normal_margin"
+            android:minHeight="48dp"
+            android:paddingTop="@dimen/m3_spacing_small"
+            android:paddingBottom="@dimen/m3_spacing_small"
             android:text="@string/ascending" />
 
         <org.fossify.commons.views.MyCompatRadioButton
             android:id="@+id/sorting_dialog_radio_descending"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="@dimen/normal_margin"
-            android:paddingBottom="@dimen/normal_margin"
+            android:minHeight="48dp"
+            android:paddingTop="@dimen/m3_spacing_small"
+            android:paddingBottom="@dimen/m3_spacing_small"
             android:text="@string/descending" />
 
     </RadioGroup>
@@ -79,7 +84,7 @@
         android:id="@+id/sorting_dialog_use_for_this_checklist"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="@dimen/min_radio_checkbox_height"
+        android:minHeight="48dp"
         android:text="@string/use_for_this_checklist" />
 
 </LinearLayout>

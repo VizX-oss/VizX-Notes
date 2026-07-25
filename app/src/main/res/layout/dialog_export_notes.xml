@@ -9,16 +9,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingTop="@dimen/activity_margin">
+        android:paddingTop="@dimen/m3_spacing_large">
 
         <org.fossify.commons.views.MyTextInputLayout
             android:id="@+id/export_notes_filename_hint"
+            style="@style/Widget.Notes.TextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/medium_margin"
+            android:layout_marginBottom="@dimen/m3_spacing_medium"
             android:hint="@string/filename_without_json"
-            android:paddingStart="@dimen/activity_margin"
-            android:paddingEnd="@dimen/activity_margin">
+            android:paddingStart="@dimen/m3_spacing_large"
+            android:paddingEnd="@dimen/m3_spacing_large">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/export_notes_filename"
